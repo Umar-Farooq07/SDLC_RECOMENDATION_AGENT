@@ -1,0 +1,5 @@
+Project: Digital Wallet Update
+Stakeholder: Risk & Product Teams
+
+Notes:
+We are upgrading our digital wallet. We need real-time payment processing (under 1 second). All user logins must require two-factor authentication using an authenticator app, SMS is no longer allowed. We need an extensive audit trail of every financial transaction to comply with the new Banking Authority regulations. The system must be highly available (99.99% uptime). Also, users need to be able to export their transaction history as a CSV file.

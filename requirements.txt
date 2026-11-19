@@ -1,0 +1,6 @@
+pydantic==2.6.3
+python-dotenv
+huggingface-hub
+streamlit
+python-docx
+PyPDF2

@@ -1,0 +1,10 @@
+Meeting: Mortgage System Kickoff
+Attendees: John (Product Manager), Sarah (Lead Engineer)
+
+John: We need to build the new Automated Mortgage Approval System. Customers should be able to fill out their mortgage application entirely online.
+Sarah: Okay, what is the expected response time for an application?
+John: The system must automatically approve or reject standard applications within 5 minutes. If it's a complex case, it should route to a human officer.
+Sarah: What about data storage and platforms?
+John: The UI needs to be accessible on both mobile and desktop web browsers. Also, it must pull credit scores directly from the Equifax API in real-time.
+Sarah: Do we anticipate a lot of changes to this system?
+John: Yes, we anticipate the business rules for loan approvals to change frequently as interest rates and loan products change every quarter. We need to be able to deploy updates fast without breaking existing applications.
