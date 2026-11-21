@@ -1,0 +1,16 @@
+{
+  "expected_requirement_terms": [
+    "concurrent audit", "indefinitely", "500 ms", "liveness", "PAN", "OVD",
+    "five years", "purpose-specific consent", "TLS 1.3", "AES-256", "2,000 ms",
+    "idempotency", "15 minutes", "SIEM", "reconciliation"
+  ],
+  "expected_ambiguity_terms": ["fast", "high-value", "standard encryption"],
+  "expected_conflict_count": 3,
+  "expected_conflict_markers": ["activation", "retention", "latency"],
+  "expected_sdlc_model": "Agile–DevSecOps Hybrid",
+  "expected_citation_documents": [
+    "RBI KYC Direction: Video-based Customer Identification Process (V-CIP)",
+    "Digital Personal Data Protection Act, 2023: Financial Services Control Notes",
+    "Legacy Core Banking Integration Interface"
+  ]
+}
