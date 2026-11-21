@@ -1,0 +1,9 @@
+# Instant Digital Personal Loan Origination — Evaluation Case
+[Product Owner] The system shall provide an instant loan decision and disburse funds within 60 seconds for an eligible returning customer.
+[Product Owner] The system shall disburse loan funds immediately before the borrower acknowledges the Key Fact Statement (KFS).
+[Product Owner] The system shall collect mobile-device contact data for fast underwriting and retain it for future cross-sell.
+[Compliance Officer] The system shall present the Key Fact Statement and capture durable borrower acknowledgment before loan contract execution and disbursal.
+[Compliance Officer] The system shall obtain explicit purpose-specific borrower consent before collecting or sharing personal data for underwriting.
+[Compliance Officer] The system shall disburse directly between the borrower and the regulated entity's bank account and disclose the applicable cooling-off period.
+[InfoSec Architect] The system shall use TLS 1.3 in transit, AES-256 at rest, MFA for sensitive actions, least-privilege RBAC, and immutable audit logging.
+[Software Architect] The system shall use idempotency keys for disbursal requests and safely handle duplicate callbacks and interrupted network connections.

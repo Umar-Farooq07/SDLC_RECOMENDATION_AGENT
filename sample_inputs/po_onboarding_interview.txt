@@ -1,0 +1,9 @@
+# Product Owner Interview — Digital Onboarding
+[Product Owner] Business goal: complete retail account onboarding in one mobile session, with minimal friction and a seamless customer experience.
+[Product Owner] The system shall activate an account instantly after the customer submits the onboarding form, without waiting for a concurrent audit.
+[Product Owner] The system shall retain behavioral analytics and onboarding video indefinitely so marketing can improve conversion.
+[Product Owner] The system shall complete onboarding and all connected API calls within 500 ms end-to-end.
+[Product Owner] The system shall run a fast liveness check and raise an alert for high-value applications.
+[Product Owner] The system shall use standard encryption for all customer data.
+[Product Owner] The system shall support retry after network interruption and let customers resume an incomplete application.
+[Product Owner] Priority is a low-friction flow; exceptions should be reviewed by an operations user.

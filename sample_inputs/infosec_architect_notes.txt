@@ -1,0 +1,8 @@
+# Information Security and Architecture Review
+[InfoSec Architect] The system shall use TLS 1.3 in transit and AES-256 encryption at rest for customer, identity, and video data.
+[InfoSec Architect] The system shall require MFA or step-up authentication for account activation and transactions above INR 50,000, with least-privilege RBAC.
+[InfoSec Architect] The system shall expire interactive sessions after 15 minutes of inactivity and re-authenticate sensitive actions.
+[InfoSec Architect] The system shall send immutable security, consent, identity, and approval events to SIEM-backed audit storage.
+[Software Architect] The system shall integrate with the legacy Core Banking System REST wrapper, whose API dependency is limited to 2,000 ms response time.
+[Software Architect] The system shall use an idempotency key for account creation and recover safely from retries and duplicate delivery.
+[Operations Lead] The system shall schedule end-of-day reconciliation from 00:00 to 01:30 IST and monitor pending onboarding exceptions.

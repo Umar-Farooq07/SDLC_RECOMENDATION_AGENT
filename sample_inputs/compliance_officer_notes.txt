@@ -1,0 +1,8 @@
+# Compliance Officer Workshop Notes — KYC and Privacy
+[Compliance Officer] The system shall complete live V-CIP with customer consent, liveness detection, live location and timestamp capture, and trained-official verification.
+[Compliance Officer] The system shall verify PAN using an authorized service and verify an OVD or permitted equivalent before account activation.
+[Compliance Officer] The system shall retain encrypted V-CIP video and associated audit evidence for at least five years, subject to a longer statutory retention obligation.
+[Compliance Officer] The system shall complete concurrent audit of the V-CIP record before account activation; exceptions require authorized review.
+[Compliance Officer] The system shall present an itemized privacy notice and record explicit purpose-specific consent before collecting personal data.
+[Compliance Officer] The system shall limit collection to the stated purpose and erase data when the purpose ends unless statutory banking retention applies.
+[Compliance Officer] The system shall retain evidence of consent, verification, audit decisions, retention basis, and customer rights requests.
